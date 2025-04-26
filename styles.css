@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+body{
+    padding: 0px;
+    margin: 0px;
+    justify-content: flex-end;
+    overflow-x: hidden;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centers vertically */
+    padding-right: 20px; /* Optional: adds space from the right edge */
+    margin: 0px 20px 0px 20px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+    margin: 0;
+    padding: 0;
+}
+
+
+.nav-a{
+    text-decoration: none;
+    color: #111c30;
+    font-size: 20px;
+    margin-right: 20px;
+    font-family: Roboto;
+    
+    
+}
+
+.nav-a:hover{
+    color: #ff881d;
+}
+
+.contact-button{
+    height: 30px;
+    font-family: roboto;
+    font-size: 17px;
+    background-color: #ff881d;
+    color: #ffff;
+    border-radius: 7px ;
+    border: transparent;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.contact-button:hover{
+    background-color: #ffffff;
+    color: #ff7700;
+    border: 2px solid;
+}
+
+h2{
+    font-size:25px;
+    font-family: Roboto;
+    color: #111c30;
+}
+
+.orange-text{
+    color: #ff881d;
+}
+
+.blue-text{
+    color: #111c30;
+}
+
+.Landing-Page{
+    height: 70vh;
+}
+
+.background{
+    background-image: url(imgs/Landing\ img\ .jpg);
+    height: 100%;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+.text-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+    text-align: left;
+    padding-left: 40px; 
+    z-index: 2;         
+}
+
+.main-text,
+.secondary-text {
+    margin: 0;
+}
+
+.main-text{
+    color: #ffff;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 2.5rem;
+}
+
+.secondary-text{
+    color: #ffff;
+    font-weight: lighter;
+    font-size: 2rem;
+}
+
+.quote{
+    margin-top: 20px;
+    font-family: roboto;
+    background-color: #ff881d;
+    height: 50px;
+    color: #ffff;
+    font-size: large;
+    border-radius: 10px;
+    border: 0px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.Projects-button{
+    margin-top: 20px;
+    font-family: roboto;
+    background-color: #ffffff;
+    height: 50px;
+    color: #000;
+    font-size: large;
+    border-radius: 10px;
+    border: 0px;
+    width: 200px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.quote:hover{
+    background-color: #ffffff;
+    color: #ff7700;
+}
+
+.Projects-button:hover{
+    background-color: #3d3d3d;
+    color: #ffff;
+}
+
+/*Principals section*/
+
+.why-us{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.why-question{
+    margin-top: 60px;
+    color: #111c30;
+    font-size: 3rem;
+    font-family: "Noto Sans JP", sans-serif;
+    padding: 0px;
+}
+.h5{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.25rem;
+    margin: 0px;
+    padding: 0px;
+    color: #928c8d;
+}
+
+.pricipals{
+    margin-top: 50px;
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img-texts{
+    height: 208px;
+    width: 956px;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.texts-of-imgs{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.head-imgs{
+    height: 150px;
+    width: 70vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.h5-2{
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin: 0px;
+    padding: 0px;
+    color: #928c8d;
+}
+
+.checkmark{
+    height: 70px;
+}
+
+/*Principals section*/
+
+/*Services section*/
+
+.Services{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.services-container{
+    display: flex;
+    width: 60%;
+    height: 60%;
+    margin-top: 40px;
+    align-items: center;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+}
+
+.left-column,
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+  width: 50%;
+}
+
+.services-types{
+    width: 99%;
+    height: 34%;
+    display: flex;
+}
+
+.round-checkmark{
+    height: 70px;
+}
+
+.services-types-text{
+    display: flex;
+    flex-direction: column;
+}
+
+h3{
+    font-family: "Noto Sans JP", sans-serif;
+    color: #111c30;
+}
+
+/*Services section*/
+
+/*Previous Projects section*/
+
+.Previous-Projects{
+    width: 100vw;
+    height: 100vh;
+}
+
+.Previous-Projects-header{
+    width: 100vw;
+    height: 10%;
+    color: #ff7700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Noto Sans JP", sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/*Previous Projects section*/
+
+.next{
+    width: 100vw;
+    height: 100vh;
+}
